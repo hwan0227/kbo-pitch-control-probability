@@ -1,0 +1,10 @@
+axis,local_gain,positive_folds,worst_fold,decision,lesson
+Pattern16 vs strong baseline,5.4643,4,-0.1141,PASS,Target representation added independent signal
+Small stack combination,2.2992,5,1.2637,PASS,Several small low-correlation axes compounded safely
+V11 final combination,4.2063,5,1.4608,PASS,Disagreement-aware correction was stable
+Base-state,2.71,,,DROP_AFTER_LB,Local subgroup gain did not transfer
+Temporal decay,0.8559,5,0.3777,DROP_AFTER_LB,Stable local folds still did not guarantee leaderboard transfer
+Adaptive router,0.0174,2,-4.5409,DROP,Flexible row-wise stacking overfit folds
+Dynamic latent state,-4.2244,1,-13.7379,DROP,Strong older-year gain reversed in 2024
+P48 capacity d8 long,-0.0540,2,-1.0255,DROP,Model capacity was not the bottleneck
+Walsh Pattern16,0.1558,5,0.0252,DROP,Very stable but too small and failed development transfer
